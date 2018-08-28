@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Data driven Test Automation Suite">
+
+
+	<test name="Data driven App Test cases ">
+		<parameter name="url" value="https://www.freecrm.com/index.html"></parameter>
+		<parameter name="username" value="NaveenK"></parameter>
+		<parameter name="password" value="Test@123"></parameter>
+
+		<classes>
+			<class name="com.parameterizedTest.ParameterTest" />
+		</classes>
+	</test>
+</suite>

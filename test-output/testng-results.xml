@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17311" started-at="2018-08-06T11:11:13Z" finished-at="2018-08-06T11:11:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17311" started-at="2018-08-06T11:11:13Z" finished-at="2018-08-06T11:11:31Z">
+      <class name="SeleniumBasics_Practo.PageTestSinglton">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:SeleniumBasics_Practo.PageTestSinglton@5622fdf]" name="setUP" is-config="true" duration-ms="13598" started-at="2018-08-06T11:11:14Z" finished-at="2018-08-06T11:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:SeleniumBasics_Practo.PageTestSinglton@5622fdf]" name="testMethod1" duration-ms="2802" started-at="2018-08-06T11:11:27Z" finished-at="2018-08-06T11:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumBasics_Practo.PageTestSinglton@5622fdf]" name="tearDown" is-config="true" duration-ms="755" started-at="2018-08-06T11:11:30Z" finished-at="2018-08-06T11:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumBasics_Practo.PageTestSinglton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

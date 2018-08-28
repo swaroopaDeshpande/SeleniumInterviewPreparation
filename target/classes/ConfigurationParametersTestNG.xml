@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Configuration Parameters">
+
+	<test name="Parameterization Test cases">
+	
+		
+		<parameter name="email" value="swarup.deshpande24@gmail.com"></parameter>
+		<parameter name="password" value="swardeshpande"></parameter>
+
+		<classes>
+			<class name="SeleniumBasics_Practo.Parameterization.ParametersAnnotation" />
+		</classes>
+	</test>
+</suite>
